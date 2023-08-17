@@ -56,4 +56,29 @@ body {
   .reset-button:hover {
     background-color: #0056b3;
   }
-  
+
+#search-box {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#search-results {
+    margin-top: 20px;
+}
+/* Add these styles at the end of your existing CSS file */
+
+footer {
+  background-color: #333;
+
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-family: 'Your Preferred Font', sans-serif; /* Replace with your preferred font */
+}
+
+footer p {
+  margin: 0;
+}
